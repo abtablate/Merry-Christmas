@@ -1,0 +1,185 @@
+body{
+    background-color: #1b142d;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.header{
+    background-color:#c1272c;
+    padding: 5rem;
+    width: 77.3%;
+    height: 2rem;
+} 
+.header .branding a{
+ position: absolute;
+   left: 43%;
+
+  
+}  
+
+.santa .img img{
+    width: 100%;
+   
+}
+.Text .Text__Title p{
+    text-align: center;
+    font-size: 1.5rem;
+  
+
+} 
+.Text .Text__Title h2{
+    text-align: center;
+    font-size: 3rem;
+    color: #00413f;
+}
+.Text .Text__Title h3{
+    text-align: center;
+    font-size: 2rem;
+    color: #00413f;
+} 
+.Text .Text__Title{
+    background-color: white;
+    padding: 5rem;    
+}
+
+.Text .Text__Title .btn a{
+    text-align: center;
+    width: 100%;
+    margin: 5rem;
+}
+
+
+:root{
+    --darkgreen:#00413f;
+    --bluegreen:#065c66;
+}
+.btn{
+    
+    padding: 2rem 4rem;
+    border-style: 1rem;
+    height: 5rem;
+    width: 100%;
+    border-radius: 1rem;
+    
+}
+.btn:hover{
+    scale: 1.05;
+}
+.btn.bg--darkgreen{
+    background: var(--darkgreen);
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid transparent
+ 
+   
+} 
+.btn.bg--darkgreen:hover{
+    background-color: var(--bluegreen); 
+    transition: 0.5s ease; 
+    scale: 1.05;
+
+}
+.footer{
+    background: #c1272c;
+    padding: 2rem;  
+}
+.footer .footer__links__item h1{
+    text-align: left;
+    font-size: 1rem;
+    color: white;
+    
+    
+}
+
+
+
+.footer .footer__links__item a{
+    color: white;
+    font-size: 1rem;
+    
+ 
+    
+}
+.footer .footer__links__item h4{
+    color: white;
+    font-size: 1rem;
+    text-align: right;
+} 
+.footer .footer__social ul a{
+    margin: 0 10px;
+    margin-top: 0px;
+    float: right; 
+ 
+    
+}
+@media screen and (max-width: 500px) {
+    body{
+        background-color: white;
+    }
+    .header{
+        background-color:#c1272c;
+        padding: 3rem;
+        width: 100%;  
+    }
+    .header .branding a{
+        left: 30%;
+       }  
+    .santa .img img{
+        width: 100%;
+    }
+    .Text .Text__Title p{
+        text-align: center;
+        font-size: 1.5rem;
+    } 
+    .Text .Text__Title h2{
+        text-align: center;
+        font-size: 3rem;
+        color: #00413f;
+    }
+    .Text .Text__Title h3{
+        text-align: center;
+        font-size: 2rem;
+        color: #00413f;
+        
+    } 
+    .Text .Text__Title .btn{
+    
+        padding:3rem 2rem;    
+    }
+    .Text .Text__Title .btn a{
+        text-align: center;
+        width: 100%;
+        margin: 2rem;
+    }
+}
+@media screen and (max-width: 500px) {
+.footer{
+    background: #c1272c;
+    padding: 5rem 0;  
+}
+.footer .footer__links__item h1{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    
+    
+}
+.footer .footer__links__item a{
+    color: white;
+    font-size: 1rem;
+    margin: 11rem;
+    text-align: center;
+ 
+    
+}
+.footer .footer__links__item h4{
+    color: white;
+    font-size: 1rem;
+    text-align: right;
+    margin: 2rem;
+    text-align: center;
+}
+.footer .footer__social ul a{
+    float: left;
+    margin: 1rem;
+}
+}
